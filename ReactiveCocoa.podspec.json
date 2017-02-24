@@ -20,5 +20,5 @@
     "osx": "10.8"
   },
   "vendored_frameworks": "Carthage/Build/iOS/ReactiveCocoa.framework",
-  "prepare_command": "ReactiveCocoa_build.rb"
+  "prepare_command": "/usr/bin/ruby ReactiveCocoa_build.rb"
 }
