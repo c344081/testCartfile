@@ -1,0 +1,24 @@
+
+{
+  "name": "ReactiveCocoa",
+  "version": "2.5",
+  "summary": "A framework for composing and transforming streams of values.",
+  "homepage": "https://github.com/blog/1107-reactivecocoa-is-now-open-source",
+  "authors": {
+    "Josh Abernathy": "josh@github.com"
+  },
+  "source": {
+    "git": "git@github.com:c344081/testCartfile.git"
+  },
+  "license": {
+    "type": "MIT"
+  },
+  "description": "ReactiveCocoa (RAC) is an Objective-C framework for Functional Reactive Programming. It provides APIs for composing and transforming streams of values.",
+  "requires_arc": true,
+  "platforms": {
+    "ios": "6.0",
+    "osx": "10.8"
+  },
+  "vendored_frameworks": "Carthage/Build/iOS/ReactiveCocoa.framework",
+  "prepare_command": "/usr/bin/ruby ReactiveCocoa_build.rb"
+}
